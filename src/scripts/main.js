@@ -16,5 +16,5 @@ const totalPopulation = arr
 
 const avgPopulation = totalPopulation / arr.length;
 
-total.textContent = totalPopulation.toLocaleString('En-US');
-average.textContent = Math.floor(avgPopulation).toLocaleString('En-US');
+total.textContent = totalPopulation.toLocaleString('en-US');
+average.textContent = Math.floor(avgPopulation).toLocaleString('en-US');
